@@ -12,7 +12,7 @@ terraform {
     }
   }
    backend "azurerm" {
-    resource_group_name   = "terraform-storage-rg01"
+    resource_group_name   = "AZ-300"
     storage_account_name  = "terraformstate112"
     container_name        = "tfstatefiles"
     key                   = "terraform.tfstate"
