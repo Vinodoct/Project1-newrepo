@@ -1,0 +1,9 @@
+trigger:
+  - main
+pool:
+  vmImage: ubuntu-latest
+stages:
+  - stage: null
+  - task: TerraformInstaller@1
+    inputs: null
+    terraformVersion: latest
